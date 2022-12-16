@@ -1,0 +1,23 @@
+/*Especificidad: 001*/
+body {
+  background-color: #d74f00;
+  background-image: linear-gradient(#d74f00 , #ffd2b8);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.5em;
+}
+/* Especificidad =  001 */
+h1 {
+  text-transform: uppercase;      
+}
+/* Especificidad =  001 */
+table,th, td{
+  margin-left: auto;
+  margin-right: auto;
+border: 0.1em solid black;
+}
+/* Especificidad =  001 */
+th{
+background-color: #6a142b;
+color: white;
+}

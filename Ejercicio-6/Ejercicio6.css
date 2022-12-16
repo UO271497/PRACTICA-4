@@ -1,0 +1,46 @@
+
+/*001*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8em;
+  background-color: #d74f00;
+  background-image: linear-gradient(#d74f00 , #ffd2b8);
+  color: #000000;
+  padding-right: 1.75em;
+  text-align: center;
+}
+
+/*001*/
+h1 {
+  background-color:#012146;
+  color:white;
+  border-radius: 1em;
+  text-transform: uppercase;
+  text-align: center; 
+  padding: 1.6em 1.5em;    
+}
+
+/*001*/
+h2 {
+  color: #03618d;
+  background-color: #fdffff;
+  padding: 0.6em 0.6em; 
+  border-top-left-radius: 1.25em;
+  border-top-right-radius: 1.25em;
+  text-align: left;
+}
+/*001*/
+input{
+  font-size: large;
+  border-radius: 0.5em;
+}
+/*011*/
+input[type= "submit"]{
+  background-color: #012146;
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  height:2em;
+  margin:0.5em;
+}
+
+

@@ -1,0 +1,71 @@
+/*Especificidad: 001*/
+body {
+  background-color: #d74f00;
+  background-image: linear-gradient(#d74f00 , #ffd2b8);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.5em;
+}
+/*Especificidad: 001*/
+h1 {
+  text-align: center;
+}
+/*Especificidad: 001*/
+fieldset{
+  width: 16em;
+  margin:auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  
+}
+/*Especificidad: 001*/
+form {
+  text-align:center;
+	grid-template-columns: auto;
+  background-color: #8A5198;
+	background-image: linear-gradient(#8A5198 , #13AC97);
+  color:white;
+	display:inline-block;
+
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom:1em;
+	border-radius: 0.5em;
+}
+/*Especificidad: 011*/
+input[type='button'] {
+  border-radius: 0.5em;
+  height: 3em;
+  width: 3.5em;
+  margin: 0.6em;
+}
+/*Especificidad: 011*/
+input[type='submit'] {
+  border-radius: 0.5em;
+  margin: 0.5em;
+  width: 3.5em;
+
+}
+
+/*Especificidad: 011*/
+input[value='/'],
+input[value='*'],
+input[value='+'],
+input[value='-'] {
+  background-color: rgb(223, 49, 49);
+  color:black;
+}
+/*Especificidad: 001*/
+textarea {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  height: 5em;
+  width: 20em;
+  border-radius: 0.5em;
+  background-color: #fff;
+  color:black;
+  resize: none;
+}

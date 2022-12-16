@@ -1,0 +1,70 @@
+
+/*Especificidad: 001*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2em;
+  background-color:#f1c386; 
+  color: black;
+  padding-right: 1.75em;
+  text-align: center;
+}
+/*Especificidad: 001*/
+h1 {
+  background-color:#770000;
+  color:white;
+  border-radius: 1em;
+  line-height: 1.75em;
+  text-transform: uppercase;
+  text-align: center; 
+  padding: 1.6em 1.5em;    
+}
+
+/*Especificidad: 001*/
+h2 {
+  color: #770000;
+  background-color: #fdffff;
+  padding: 0.6em 0.6em; 
+  font-size: 1.5em;
+  border-top-left-radius: 1.25em;
+  border-top-right-radius: 1.25em;
+  text-align: left;
+}
+
+
+/*Especificidad: 001*/
+h3 {
+  color: #770000;
+  background-color: #fdffff;
+  padding: 0.4em 0.4em; 
+  font-size: 1.25em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  text-align: left;
+}
+
+/*Especificidad: 001*/
+h4 {
+  color: #f7ccef;
+  background-color: #000000;
+  padding: 0.4em 0.4em; 
+  font-size: 1em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  text-align: left;
+}
+/*Especificidad: 001*/
+input{
+  font-size: large;
+  border-radius: 0.5em;
+}
+/*Especificidad: 001*/
+button{
+  font-size: large;
+  color: white;
+  background-color: #460124;
+  border-radius: 1em;
+}
+/*Especificidad: 001*/
+p{
+  font-size: 1.25em;
+}
